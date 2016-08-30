@@ -51,18 +51,18 @@ $statement3->closeCursor();
 
 <!-- the head section -->
 <head>
-    <title>My Guitar Shop</title>
+    <title>Guitar Database</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 
 <!-- the body section -->
 <body>
-<header><h1>Product Manager</h1></header>
+<header><h1>Guitars</h1></header>
 <main>
-    <h1>Product List</h1>
+    <h1>Guitar List</h1>
 
-    <aside>
-        <!-- display a list of categories -->
+<!--    <aside>
+         display a list of categories 
         <h2>Categories</h2>
         <nav>
         <ul>
@@ -74,7 +74,7 @@ $statement3->closeCursor();
             <?php endforeach; ?>
         </ul>
         </nav>          
-    </aside>
+    </aside>-->
 
     <section>
         <!-- display a table of products -->
@@ -103,11 +103,11 @@ $statement3->closeCursor();
             <?php endforeach; ?>
         </table>
         <p><a href="add_product_form.php">Add Product</a></p>
-        <p><a href="category_list.php">List Categories</a></p>        
+<!--        <p><a href="category_list.php">List Categories</a></p>        -->
     </section>
 </main>
 <footer>
-    <p>&copy; <?php echo date("Y"); ?> My Guitar Shop, Inc.</p>
+<!--    <p>&copy; <?php echo date("Y"); ?> My Guitar Shop, Inc.</p>-->
 </footer>
 </body>
 </html>
