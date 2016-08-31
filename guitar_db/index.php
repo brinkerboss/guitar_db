@@ -78,7 +78,7 @@ $statement3->closeCursor();
 
     <section>
         <!-- display a table of products -->
-        <h2><?php echo $category_name; ?></h2>
+        
         <table>
             <tr>
                 <th>Code</th>
@@ -102,7 +102,7 @@ $statement3->closeCursor();
             </tr>
             <?php endforeach; ?>
         </table>
-        <p><a href="add_product_form.php">Add Product</a></p>
+        <p><a href="add_product_form.php">Add Guitar</a></p>
 <!--        <p><a href="category_list.php">List Categories</a></p>        -->
     </section>
 </main>
